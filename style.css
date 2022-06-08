@@ -724,6 +724,11 @@ section {
 }
 
 @media (max-width: 500px) {
+    .nav-topbar p {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+
     .first-section {
         padding: 50px 0;
     }
@@ -764,5 +769,17 @@ section {
         padding: 0 20px;
     }
 
+    .fsl-1 {
+        font-size: 22px;
+    }
+
+    .fsl-3 {
+        font-size: 17px;
+        padding: 5px 10px;
+    }
+
+    .fsl-2 {
+        font-size: 33px;
+    }
 
 }
