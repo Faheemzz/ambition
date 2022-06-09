@@ -549,6 +549,51 @@ section {
 }
 
 /* ---------------------- Eightn section End----------------- */
+
+
+/* ---------------------- Footer Start----------------- */
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 40px 0;
+    gap: 5px;
+}
+
+.fwp-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1B4B70;
+}
+
+.fw-p-logo img {
+    width: 150px;
+}
+
+.fwp-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.fwp-wrapper img {
+    width: 50px;
+}
+
+.fw-p ul {
+    padding-left: 0;
+}
+
+.fw-p ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* ---------------------- Footer End----------------- */
 @media (max-width: 1226px) {
     .navbar-nav {
         margin-left: 40px;
@@ -782,4 +827,13 @@ section {
         font-size: 33px;
     }
 
+    .footer-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+
+    .fwp-wrapper {
+        justify-content: center;
+        margin-top: 15px;
+    }
 }
